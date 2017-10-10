@@ -5,5 +5,5 @@ phases:
       - aws cloudformation package --template saml.yaml --s3-bucket simon4980-test --output-template post-saml.yaml
 artifacts:
   files:
-    - post-saml.yaml
+    - postsaml.yaml
                
