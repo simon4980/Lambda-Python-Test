@@ -2,7 +2,7 @@ version: 0.1
 phases:
   install:
     commands:
-      - aws cloudformation package --template saml.yaml --s3-bucket simon4980-test --output-template post-saml.yaml
+      - aws cloudformation package --template saml.yaml --s3-bucket simon4980-test --output-template postsaml.yaml
 artifacts:
   files:
     - postsaml.yaml
